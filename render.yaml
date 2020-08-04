@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: shynet
+    name: shynet-test
     env: docker
     envVars:
       - key: DB_NAME
