@@ -2,6 +2,7 @@ services:
   - type: web
     name: shynet
     env: docker
+    autoDeploy: false
     envVars:
       - key: DB_NAME
         fromDatabase:
