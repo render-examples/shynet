@@ -24,6 +24,8 @@ services:
         fromDatabase:
           name: shynet
           property: port
+      - key: CSRF_TRUSTED_ORIGINS
+        value: "https://your_render_subdomain.onrender.com"
 
 databases:
   - name: shynet
