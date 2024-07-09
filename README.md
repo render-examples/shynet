@@ -18,7 +18,7 @@ After deployment, use Render **Shell** to set up your Shynet account:
 1. Set your email with `./manage.py registeradmin your-email@example.com`. You will be prompted with a temporary password. Save it.
 2. Set your whitelabel with `./manage.py whitelabel "Header for your Shynet site"`. It will be shown at the top of your Shynet site.
 
- Also use the service **Environmen** page to update the `CSRF_TRUSTED_ORIGINS` environment variable to your deployed Render service domain.
+ Also use the service **Environment** page to update the `CSRF_TRUSTED_ORIGINS` environment variable to your deployed Render service domain.
 
 ### Manual Deployment
 
